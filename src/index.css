@@ -4,7 +4,7 @@ body {
 
 #app {
     font-family: 'Train One', cursive;
-    background: #acd8d8;
+    background: #d1d1d1;
     color: rgb(0, 0, 0);
     letter-spacing: 0.04em;
     text-align: center;
@@ -16,7 +16,6 @@ body {
     line-height: 1.4em;
 }
 
-
 h3 {
     font-family: 'Train One', cursive;
     margin: 5px 0 4px;
@@ -24,26 +23,30 @@ h3 {
 
 .main-info {
     font-family: 'Train One', cursive;
-    float: right;
+    float: left;
     padding: 10px 20px;
     text-align: center;
     margin-bottom: 15px;
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+}
+
+.main-info:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 li {
-    font-family: 'Train One', cursive;
     list-style: none outside none;
-    text-align: left;
-    padding: 10px 0;
+    text-align: center;
+    padding: 5px 0;
+}
+
+li:hover {
+    cursor: pointer;
 }
 
 ul {
-    margin: 1000;
+    margin: 10;
     padding: 0 35px;
     font-family: 'Train One', cursive;
 }
