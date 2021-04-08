@@ -1,52 +1,35 @@
-body {
-    font-family: 'Train One', cursive;
-}
-
 #app {
     font-family: 'Train One', cursive;
     background: #d1d1d1;
     color: rgb(0, 0, 0);
     letter-spacing: 0.04em;
     text-align: center;
-    margin: 60px;
-    width: 370px;
-    margin: 0 auto;
+    margin: auto;
+    width: 500px;
+    height:auto;
     display: table;
     padding: 20px;
     line-height: 1.4em;
-}
-
-h3 {
-    font-family: 'Train One', cursive;
-    margin: 5px 0 4px;
-}
-
-.main-info {
-    font-family: 'Train One', cursive;
-    float: left;
-    padding: 10px 20px;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.main-info:after {
-    content: "";
-    display: table;
-    clear: both;
+    font-size: 20pt;
+    border: transparent;
+    border-radius: 3px;
 }
 
 li {
     list-style: none outside none;
     text-align: center;
     padding: 5px 0;
+    transition: ease-in 300ms;
 }
 
 li:hover {
     cursor: pointer;
+    transform:matrix(2,-2,2,2,0,0);
+    transition: ease-out 300ms;
 }
 
 ul {
-    margin: 10;
+    margin: 15px;
     padding: 0 35px;
     font-family: 'Train One', cursive;
 }
@@ -54,7 +37,10 @@ ul {
 input {
     font-family: 'Train One', cursive;
     width: 280px;
-    margin: 30px 0;
+    margin: 20px 0;
     padding: 8px 10px;
     outline: 0;
+    font-size: 20pt;
+    border: transparent;
+    border-radius: 3px;
 }
